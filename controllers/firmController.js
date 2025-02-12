@@ -53,6 +53,6 @@ const deleteFirmById = async(req,res)=>{
     }
 }
 
-module.exports={addFirm: [upload.single('image'),addFirm],eleteFirmById}
+module.exports={addFirm: [upload.single('image'),addFirm], deleteFirmById }
 
 
